@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace MailSender_29._01._2020
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+ 
     public partial class MainWindow : Window
     {
         public MainWindow()

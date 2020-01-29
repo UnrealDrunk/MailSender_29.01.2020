@@ -37,7 +37,6 @@ namespace Test_MailSender
             const string from = "vs.kozh@list.ru";
             const string to = "stroyuni@gmail.com";
 
-
             try
             {
                 using(var message = new MailMessage(from, to))
@@ -46,7 +45,7 @@ namespace Test_MailSender
                     message.Body = message_body;
 
                     const string server_adress = "smtp.mail.ru";
-                    const int server_port = 587; //25
+                    const int server_port = 587; //587
 
                     using(var client = new SmtpClient(server_adress, server_port))
                     {
