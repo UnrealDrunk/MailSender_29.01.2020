@@ -15,6 +15,7 @@
                 <MenuItem Header="Сохранить"/>
                 <Separator/>
                 <MenuItem Header="Выход"/>
+                <MenuItem Header="Совсем выход"/>
             </MenuItem>
             <MenuItem Header="Сервис"></MenuItem>
             <MenuItem Header="Помощь"></MenuItem>
