@@ -39,7 +39,7 @@ namespace Test_MailSender
 
             try
             {
-                using(var message = new MailMessage(from, to))
+                using (var message = new MailMessage(from, to))
                 {
                     message.Subject = message_subject;
                     message.Body = message_body;
@@ -47,7 +47,7 @@ namespace Test_MailSender
                     const string server_adress = "smtp.mail.ru";
                     const int server_port = 587; //587
 
-                    using(var client = new SmtpClient(server_adress, server_port))
+                    using (var client = new SmtpClient(server_adress, server_port))
                     {
                         client.EnableSsl = true;
                         var user_name = UserNameEdit.Text;
@@ -58,7 +58,7 @@ namespace Test_MailSender
 
                         client.Send(message);
 
-                        MessageBox.Show("Почта благополучно отправлена!","Хвала богам!", MessageBoxButton.OK, MessageBoxImage.Information);
+                        MessageBox.Show("Почта благополучно отправлена!", "Хвала богам!", MessageBoxButton.OK, MessageBoxImage.Information);
 
                     }
 
@@ -67,13 +67,13 @@ namespace Test_MailSender
 
                 }
             }
-            catch(Exception error)
+            catch (Exception error)
             {
                 MessageBox.Show(error.Message, "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
         }
 
-        
+
     }
 }

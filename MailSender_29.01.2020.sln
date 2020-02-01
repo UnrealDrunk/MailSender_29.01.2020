@@ -5,9 +5,7 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender_29.01.2020", "MailSender_29.01.2020\MailSender_29.01.2020.csproj", "{B369FC9A-E82F-4684-8614-6E1E3B79A24D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AB0215D0-D9C4-4D58-A5AA-D32D239E3232}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_MailSender", "MailSender_29.01.2020\Test\Test_MailSender\Test_MailSender.csproj", "{291CD1D4-FC67-4A69-9587-C3D837ED3F66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_2", "Test_2\Test_2.csproj", "{8CCA292C-05E4-472D-84A2-62612C547F1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +17,13 @@ Global
 		{B369FC9A-E82F-4684-8614-6E1E3B79A24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B369FC9A-E82F-4684-8614-6E1E3B79A24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B369FC9A-E82F-4684-8614-6E1E3B79A24D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{291CD1D4-FC67-4A69-9587-C3D837ED3F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{291CD1D4-FC67-4A69-9587-C3D837ED3F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{291CD1D4-FC67-4A69-9587-C3D837ED3F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{291CD1D4-FC67-4A69-9587-C3D837ED3F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCA292C-05E4-472D-84A2-62612C547F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCA292C-05E4-472D-84A2-62612C547F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCA292C-05E4-472D-84A2-62612C547F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCA292C-05E4-472D-84A2-62612C547F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{291CD1D4-FC67-4A69-9587-C3D837ED3F66} = {AB0215D0-D9C4-4D58-A5AA-D32D239E3232}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5428965E-F914-41F5-A3A7-47E3F275432E}
