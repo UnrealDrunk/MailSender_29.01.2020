@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Test_MailSender
+namespace Test_2
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

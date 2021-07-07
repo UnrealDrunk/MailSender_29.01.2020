@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Test_MailSender.Properties
+namespace Test_2.Properties
 {
 
 
